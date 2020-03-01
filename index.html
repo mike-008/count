@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="proteincalculation">
+        
+        体重1Kgあたりの必要なタンパク質量を選択してください:
+        <select name="protein" id="needProtein">
+           <option value="1.6">1.6</option>
+           <option value="1.7">1.7</option>
+           <option value="1.8">1.8</option>
+           <option value="1.9">1.9</option>
+           <option value="2.0">2.0</option>
+        </select><br>
+        体重を入力してください:
+        <input type= "text" name ="bodyWeight" id="bodyWeight" value=""><br>
+        <button id="calculation">計算する</button>
+        <p>1日に必要なタンパク質量は<span id="result"></span>gです。</p>
+        
+        <div>
+            <input type="radio" name="foodtype" value="radio-meat" id="radio-meat">肉
+            <input type="radio" name="foodtype" value="radio-fish" id="radio-fish">魚
+            <input type="radio" name="foodtype" value="radio-soy" id="radio-soy">大豆   
+            <input type="radio" name="foodtype" value="radio-egg" id="radio-egg">卵
+            <input type="radio" name="foodtype" value = "favorite" id="favorite">お気に入り
+            
+        </div>
+        <ul></ul>
+        
+        <select name="" id="foodName">
+        </select>
+
+       
+    
+    <script src="main.js"></script>
+    
+    </form>
+</body>
+</html>
